@@ -1,0 +1,123 @@
+##############################################################
+###	PORTRAITS SETTINGS
+###
+### Which portraits are used is set in 
+### common\species_classes\00_species_classes.txt
+###
+###	This file configures how portraits and planet backgrounds are built.
+###	Default position orientation is lower left.
+##############################################################
+
+portraits = {
+
+	# Targaryen
+	targaryen_female_01 = {	entity = "portrait_targaryen_female_01_entity"	clothes_selector = "mammalian_targaryen_female_clothes_01"  hair_selector = "targaryen_female_hair_01"	greeting_sound = "human_female_greetings_01"}
+
+	targaryen_female_02 = {	entity = "portrait_targaryen_female_02_entity"	clothes_selector = "mammalian_targaryen_female_clothes_01" hair_selector = "targaryen_female_hair_01"	greeting_sound = "human_female_greetings_03"}
+	
+	targaryen_male_01 = {	entity = "portrait_targaryen_male_01_entity"	clothes_selector = "mammalian_targaryen_male_clothes_01" hair_selector = "targaryen_male_hair_01"	greeting_sound = "targaryen_male_greetings_01" }
+	
+	targaryen_male_02 = {	entity = "portrait_targaryen_male_02_entity"	clothes_selector = "mammalian_targaryen_male_clothes_01" hair_selector = "targaryen_male_hair_02"	greeting_sound = "targaryen_male_greetings_03" }
+	
+}
+
+portrait_groups = {
+	targaryen = {
+		default = targaryen_female_01
+		game_setup = { #will run with a limited country scope. species and government is set but the country does not actually exist
+			add = {
+				trigger = {
+					ruler = { gender = male }
+				}
+				portraits = {
+					targaryen_male_01
+					targaryen_male_02
+				}
+			}
+			add = {
+				trigger = {
+					ruler = { gender = female }
+				}
+				portraits = {
+					targaryen_female_01
+					targaryen_female_02
+				}
+			}
+			#set = {
+			#	trigger = { ... }
+			#	portraits = { ... }
+			#	#using "set =" instead of "add" will first clear any portraits already added
+			#}
+		}		
+		
+		#species scope
+		species = { #generic portrait for a species
+			add = {
+				portraits = {
+					targaryen_female_01
+					targaryen_female_02
+					targaryen_male_01
+					targaryen_male_02
+				}
+			}
+		}		
+		
+		#pop scope
+		pop = { #for a specific pop
+			add = {
+				portraits = {
+					targaryen_female_01
+					targaryen_female_02
+					targaryen_male_01
+					targaryen_male_02
+				}
+			}
+		}
+		
+		#leader scope
+		leader = { #scientists, generals, admirals, governor
+			add = {
+				trigger = {
+					gender = female
+				}
+				portraits = {
+					targaryen_female_01
+					targaryen_female_02
+				}
+			}
+			add = {
+				trigger = {
+					gender = male
+				}
+				portraits = {
+					targaryen_male_01
+					targaryen_male_02
+				}
+			}
+		}
+
+			
+		#leader scope 
+		ruler = {
+			add = {
+				trigger = {
+					gender = female
+				}
+				portraits = {
+					targaryen_female_01
+					targaryen_female_02
+				}
+			}
+			add = {
+				trigger = {
+					gender = male
+				}
+				portraits = {
+					targaryen_male_01
+					targaryen_male_02
+				}
+			}
+		}
+	}
+}
+
