@@ -1,0 +1,192 @@
+﻿
+Targaryen = {	
+	### SHIPS
+
+	ship_names = {
+	
+		generic = {
+			"Black Betha" "Brightfish" "Courageous" "Faithful" "Fury" "Godsgrace" "Horned Honor" "Huntress" "Lady of the Tower" "Lance" "Laughing Lord" "Prayer" "Princess Rhaenys" "Ramshead" "Red Raven" "Sea Demon" "Silence" "Swift Sword"  "Valyrian" "Wraith"
+		}
+	
+		corvette = {
+		}
+		
+		destroyer = {
+		}
+		
+		cruiser = {
+		}
+		
+		battleship = {
+"Drogon" "Viserion" "Rhaegal" "Balerion"
+		}
+		
+		science = {
+			"Saathos Saan" "Bravo" "Swan" "Meraxes" "Ghost"
+		}
+		
+		colonizer = {
+		}
+		
+		constructor = {
+			"Ghiscari Dawn"
+		}
+		
+		orbital_station = {
+			"Titan"
+		}
+		mining_station = {
+			"Valyrian"
+		}
+		research_station = {
+			"Sothoryos"
+		}
+		wormhole_station = { }
+		terraform_station = {
+			"Ulthos"
+			"Sarnor"
+		}
+		observation_station = {
+			"Ghiscar" "Lhazar" "Moraq"
+		}
+	
+		military_station_small = { "Andlos" }
+	
+		military_station_medium = { "Andlos" }
+	
+		military_station_large = { "Andlos" }	
+	}
+	
+	fleet_names = {
+		random_names = {
+			"Iron Fleet" "Royal Fleet" " Redwyne Fleet" "Dragon's Fleet"
+		}
+		sequential_name = "%O% Fleet"
+	}
+
+	### ARMIES
+	army_names = {
+		defense_army = {
+			sequential_name = "%O% Brazen Beasts"
+		}
+			
+		assault_army = {
+			sequential_name = "%O% Stormcrows"
+		}
+		
+		slave_army = {
+			sequential_name = "%O% Unsullied"
+		}
+		
+		clone_army = { 
+			sequential_name = "Night's Watch %R%"
+		}
+		
+		robotic_army = {
+			sequential_name = "Sellsword %R%"
+		}
+		
+		android_army = {
+			sequential_name = "Golden Company %R%"
+		}
+		
+		psionic_army = { 
+			sequential_name = "%O% Others"
+		}
+		
+		xenomorph_army = {
+			sequential_name = "%O% Khalasar"
+		}
+		
+		gene_warrior_army = {
+			sequential_name = "%O% Second Sons"
+		}
+	}
+
+		
+	
+	### PLANETS
+	
+	planet_names = {
+	
+		generic = {
+			names = {
+			}
+		}
+		
+		pc_desert = {
+			names = {
+				"New Sandstone" "New Wyl" "New Yronwood"
+			}
+		}
+		
+		pc_tropical = {
+			names = {
+				"New Myr" "New Volantis" "New Pentos" "New Braavos"
+			}
+		}
+		
+		pc_arid = {
+			names = {
+				"New Ashford" "New Lannisport" "New Shields"
+			}
+		}
+		
+		pc_continental = {
+			names = {
+				"New King's Landing" "New Oldtown" "New Meereen" "New Vaes Dothrak" "New Astrapor"
+			}
+		}
+		
+		pc_ocean = {
+			names = {
+				"New Shield" "New Blacktyde"
+			}
+		}
+		
+		pc_tundra = {
+			names = {
+				"New Riverlands" "New Riverun" "New Harrenhal"
+			}
+		}
+		
+		pc_arctic = {
+			names = {
+				"New Shadow Tower" "New Winterfell" "New White Harbor" "New Karhold"
+			}
+		}
+		
+	}
+	
+	### CHARACTERS
+	
+	character_names = {
+		default = {
+			# A complete name
+			full_names = {
+			}
+			
+			# Always combined with a second name
+			first_names = {
+				"Darreth"
+				"Keat"
+				"Brayan"
+				"Dorin"
+"Drack" "Rana" "Lana" "Lylian" "Sanda" "Mysa" "Taryne" "Eyla" "Derron" "Bron" "Bran" "Grenn" "Tyrion" "Laerra"
+			}
+			
+			# Always combined with a first name
+			second_names = {
+				Tarly Long Pyne Casterly Ashford Tully Snow Sand Flowers Hill Pyke Storm Waters Stone Rivers Swann Pyre Glover Roote
+			}
+
+			regnal_first_names = {
+				"Visenya" "Aegon" "Rhaenys" "Maegor" "Aenys" "Jaehaerys" "Alysanne" "Viserys" "Aegon" "Rhaenyra" "Daeron" "Rhaena" "Daena" "Daemon" "Aemon" "Aerys" "Daeron" "Rhaegar" "Viserys" "Rhaenys"
+			}
+			
+			regnal_second_names = {
+				Targaryen
+			}
+		}
+	}
+}

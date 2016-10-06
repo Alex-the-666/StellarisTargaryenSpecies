@@ -11,13 +11,13 @@
 portraits = {
 
 	# Targaryen
-	targaryen_female_01 = {	entity = "portrait_targaryen_female_01_entity"	clothes_selector = "mammalian_targaryen_female_clothes_01"  hair_selector = "targaryen_female_hair_01"	greeting_sound = "human_female_greetings_01"}
+	targaryen_female_01 = {	entity = "portrait_human_female_01_entity"	clothes_selector = "mammalian_targaryen_female_clothes_01"  hair_selector = "targaryen_female_hair_01"	greeting_sound = "human_female_greetings_01" character_textures = { "gfx/models/portraits/targaryen/targaryen_female_body_01.dds"}}
 
-	targaryen_female_02 = {	entity = "portrait_targaryen_female_02_entity"	clothes_selector = "mammalian_targaryen_female_clothes_01" hair_selector = "targaryen_female_hair_01"	greeting_sound = "human_female_greetings_03"}
+	targaryen_female_02 = {	entity = "portrait_human_female_02_entity"	clothes_selector = "mammalian_targaryen_female_clothes_01" hair_selector = "targaryen_female_hair_01"	greeting_sound = "human_female_greetings_03" character_textures = { "gfx/models/portraits/targaryen/targaryen_female_body_02.dds"}}
 	
-	targaryen_male_01 = {	entity = "portrait_targaryen_male_01_entity"	clothes_selector = "mammalian_targaryen_male_clothes_01" hair_selector = "targaryen_male_hair_01"	greeting_sound = "targaryen_male_greetings_01" }
+	targaryen_male_01 = {	entity = "portrait_human_male_01_entity" 	clothes_selector = "mammalian_targaryen_male_clothes_01" hair_selector = "targaryen_male_hair_01"	greeting_sound = "targaryen_male_greetings_01" character_textures = { "gfx/models/portraits/targaryen/targaryen_male_body_01.dds"}}
 	
-	targaryen_male_02 = {	entity = "portrait_targaryen_male_02_entity"	clothes_selector = "mammalian_targaryen_male_clothes_01" hair_selector = "targaryen_male_hair_02"	greeting_sound = "targaryen_male_greetings_03" }
+	targaryen_male_02 = {	entity = "portrait_human_male_02_entity"	clothes_selector = "mammalian_targaryen_male_clothes_01" hair_selector = "targaryen_male_hair_01"	 greeting_sound = "targaryen_male_greetings_03" character_textures = { "gfx/models/portraits/targaryen/targaryen_male_body_02.dds"}}
 	
 }
 
