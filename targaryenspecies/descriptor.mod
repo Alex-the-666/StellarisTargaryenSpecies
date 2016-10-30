@@ -6,5 +6,5 @@ tags={
 }
 picture="logo.png"
 remote_file_id="775657381"
-supported_version="1.2.5"
+supported_version="1.3.x"
 
